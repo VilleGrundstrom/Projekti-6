@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>Arvauspeli</title>
+  <head>
+       <link rel= "stylesheet" type="text/css" href="tyyli.css">
+       <meta charset="utf-8">
+       <!-- Liitetty Javascript -->
+       <script type="text/javascript" src="arvauspeli.js"></script>
+     <title>Numeropeli</title>
+  </head>
+  <body>
+    <header>
+    <h1>Numeropelin ohjeet</h1>
+    <!--Pelin ohjeet-->
+      <p>Periaattessa mahdollista arvata 3 kertaa 1-10 välillä jos et hävisit pelin.</p>
+      <p>Vihreällä merkattu voitot ja punaisella häviöt.</p>
+    </header>
+
+    <section id="section2">
+      <ul id="ul1"><p id="p1">0</p></ul> <ul id="ul2"><p id="p2">0</p></ul>
+      <!--javascriptissä yritämme saada voitot ja häviöt näkymään tuohon -->
+    <button type="button" id="nappi1" name="button" onclick=arvaus(1)>1</button>
+    <button type="button" id="nappi2" name="button" onclick=arvaus(2)>2</button>
+    <button type="button" id="nappi3" name="button" onclick=arvaus(3)>3</button>
+    <button type="button" id="nappi4" name="button" onclick=arvaus(4)>4</button>
+    <button type="button" id="nappi5" name="button" onclick=arvaus(5)>5</button>
+    <button type="button" id="nappi6" name="button" onclick=arvaus(6)>6</button>
+    <button type="button" id="nappi7" name="button" onclick=arvaus(7)>7</button>
+    <button type="button" id="nappi8" name="button" onclick=arvaus(8)>8</button>
+    <button type="button" id="nappi9" name="button" onclick=arvaus(9)>9</button>
+    <button type="button" id="nappi10" name="button" onclick=arvaus(10)>10</button>
+    <!--Buttonit joita painamalla ei vielä tapahdu mitään -->
+   <!-- mutta joita painamalla pitäisi saada aloitettua javascript että peli toimisi ohjeitten mukaisesti-->
+    </section>
+  </body>
+  <!--Nettisivu on tehty 15.4.2020 -->
+</html>

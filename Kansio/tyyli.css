@@ -1,0 +1,40 @@
+Body{
+  font-family: 'Arial', cursive;
+
+background-image: url("taustakuva.png");
+}
+header{
+  text-align: center;
+  vertical-align: middle;
+}
+/*Tässä body osiossa lisäsimme background imagen ja laitoimme keskitimme sivun sisältöä*/
+button{
+  padding: 12px 30px 12px;
+  cursor: pointer;
+
+}
+section{
+  background-color: #616868;
+  padding: 10px 30px 10px;
+  vertical-align: middle;
+  text-align: center;
+
+}
+#p1, #p2{
+  color: black;
+
+}
+
+#ul1{
+  text-align: center;
+  vertical-align: middle;
+  background-color:#0F8D01;
+  padding: 1px 1px 1px;
+}
+#ul2{
+  text-align: center;
+  vertical-align: middle;
+    background-color:#B60F0B;
+    padding: 1px 1px 1px;
+}
+/* jotakin mustia pisteitä näkyy tuolla p1 ja p2 päällä*/
